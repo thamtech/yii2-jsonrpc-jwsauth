@@ -1,0 +1,23 @@
+{
+    "name": "thamtech/yii2-jsonrpc-jwsauth",
+    "description": "JWS Token Authentication over JSON RPC 2.0",
+    "keywords": ["yii", "yii2", "json", "rpc", "rpc2", "jsonrpc", "json-rpc", "jsonrpc2", "json-rpc2", "json-rpc-2.0", "jws", "jwt", "jose", "auth", "token"],
+    "type": "yii2-extension",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Tyler Ham",
+            "email": "tyler@thamtech.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "namshi/jose": "^6.0",
+        "cranetm/yii2-json-rpc-2.0": "dev-master"
+    },
+    "autoload": {
+        "psr-4": { "thamtech\\jwsauth\\": ""}
+    }
+}
